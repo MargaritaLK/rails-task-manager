@@ -1,0 +1,18 @@
+<div class="container">
+
+  <h1>task details</h1>
+  <h4> <%= @task.title %> </h4>
+  <h6> <%= @task.details %> </h6>
+
+  <div class="btn btn-light">
+    <%= link_to "update this task" , edit_path %>
+  </div>
+
+  <p> <%= link_to "tasks", tasks_path %></p>
+
+
+
+</div>
+
+
+
